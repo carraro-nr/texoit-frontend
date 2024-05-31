@@ -4,8 +4,8 @@ function MovieCard({ movie }) {
   return (
     <div>
       <h3>{movie.title}</h3>
-      <p>Year: {movie.year}</p>
-      {/* Adicione mais informações do filme conforme necessário */}
+      <p>ID: {movie.id}</p>      
+      <p>Year: {movie.year}</p>      
     </div>
   );
 }
